@@ -1,0 +1,19 @@
+{
+	"name": "mcuelenaere/slim-bluescreen",
+	"type": "library",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Maurus Cuelenaere",
+			"email": "mcuelenaere@gmail.com"
+		}
+	],
+	"require": {
+		"slim/slim": "~2.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"SlimBluescreen\\": "."
+		}
+	}
+}
