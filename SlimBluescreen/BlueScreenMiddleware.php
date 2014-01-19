@@ -11,7 +11,7 @@ class BlueScreenMiddleware extends \Slim\Middleware
 			$bluescreen = new BlueScreen();
 
 			// render view
-			$this->app->contentType('text/html');
+			$this->app->contentType('text/html; charset=utf-8');
 			$this->app->response()->status(500);
 			$this->app->response()->body($bluescreen->render($e));
 		}
